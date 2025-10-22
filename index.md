@@ -15,7 +15,7 @@ Our committee organizes various academic and social events to help graduate stud
 * BBQ Night
 
 
-### Our Team
+### [Our Team](./team.html)
 - President: Goh Si Qi
 - Vice President: Subrat Prasad Panda
 - Treasurer: Eduardo de Conto
