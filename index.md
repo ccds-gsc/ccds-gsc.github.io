@@ -26,6 +26,7 @@ layout: default
       font-size: 18px;
       color: #0366d6;
       text-decoration: none;
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
     ">
       Hello!
     </a>
@@ -95,5 +96,6 @@ $ Hiking
     <li>[05Sep'25] BBQ Night</li>
   </ul>
 
-  <h4>Meet our dedicated <a href="./team.html"><u>team</u></a></h4>
+  <h4>Meet our dedicated <span style="font-size: 1.1em;">🔥</span> <a href="./team.html"><u>team</u></a></h4>
+
 </div>
