@@ -27,24 +27,39 @@ layout: default
       color: #0366d6;
       text-decoration: none;
     ">
-      Hi!
+      Hello!
     </a>
 
-    <!-- Nav Links -->
-    <div style="display: flex; gap: 20px;">
+    <!-- Nav Buttons -->
+    <div style="display: flex; gap: 15px;">
       <a href="./events.html" style="
+        padding: 6px 14px;
+        border: 1px solid #d1d5da;
+        border-radius: 6px;
+        background-color: #ffffff;
         color: #24292e;
         text-decoration: none;
-        transition: color 0.2s;
-      " onmouseover="this.style.color='#0366d6'" onmouseout="this.style.color='#24292e'">
-        Photos
+        font-size: 14px;
+        transition: all 0.2s ease;
+      " 
+      onmouseover="this.style.backgroundColor='#0366d6';this.style.color='#ffffff';this.style.borderColor='#0366d6';"
+      onmouseout="this.style.backgroundColor='#ffffff';this.style.color='#24292e';this.style.borderColor='#d1d5da';">
+        Events
       </a>
+
       <a href="./team.html" style="
+        padding: 6px 14px;
+        border: 1px solid #d1d5da;
+        border-radius: 6px;
+        background-color: #ffffff;
         color: #24292e;
         text-decoration: none;
-        transition: color 0.2s;
-      " onmouseover="this.style.color='#0366d6'" onmouseout="this.style.color='#24292e'">
-        Team
+        font-size: 14px;
+        transition: all 0.2s ease;
+      " 
+      onmouseover="this.style.backgroundColor='#0366d6';this.style.color='#ffffff';this.style.borderColor='#0366d6';"
+      onmouseout="this.style.backgroundColor='#ffffff';this.style.color='#24292e';this.style.borderColor='#d1d5da';">
+        Our Team
       </a>
     </div>
   </div>
@@ -68,7 +83,7 @@ $ Hiking
 
   <hr />
 
-  <h3>Past Events (<a href="./events.html"><u>Photo Gallery</u></a>)</h3>
+  <h3>Past Events (<a href="./events.html"><small><u>Photo Gallery</u></small></a>)</h3>
   <ul>
     <li>[24Oct'25] Deep Learning Bootcamp - Session 1</li>
     <li>[22Sep'25] Research Seminar</li>
