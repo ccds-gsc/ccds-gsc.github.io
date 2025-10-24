@@ -13,36 +13,52 @@
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       line-height: 1.6;
-      margin: 40px auto;
-      max-width: 1000px;
+      margin: 0;
       color: #23314d;
       background-color: #ffffff;
     }
 
+    /* ---------- Header Section ---------- */
     header {
+      width: 100%;
+      background: #faf0e8;               /* light blue background */
+      border-bottom: 3px solid #cacee8;
+      padding: 30px 0;
+      box-shadow: 0 2px 6px rgba(0, 66, 122, 0.1);
+    }
+
+    .header-content {
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-bottom: 40px;
       gap: 15px;
+      max-width: 1000px;
+      margin: 0 auto;
     }
 
-    header img {
-      width: 60px;
-      height: 60px;
+    .header-content img {
+      width: 100px;
+      height: 100px;
     }
 
-    header h1 {
+    .header-content h1 {
       color: #00427a;
-      font-size: 2em;
+      font-size: 2.2em;
       margin: 0;
+    }
+
+    /* ---------- Event Container ---------- */
+    main {
+      margin: 40px auto;
+      max-width: 1000px;
+      padding: 0 15px;
     }
 
     /* ---------- Event Card ---------- */
     .event-section {
       margin-bottom: 50px;
-      background: #f2f7fb;
-      border-left: 6px solid #00427a;
+      background: #f7fafc;
+      border-left: 6px solid #88b7e1;
       border-radius: 10px;
       padding: 20px;
       box-shadow: 0 2px 8px rgba(0, 66, 122, 0.15);
@@ -81,10 +97,10 @@
     }
 
     .carousel img {
-      width: 100%;
+      width: 50%; /* two images per view */
       height: 400px;
       object-fit: cover;
-      border-radius: 10px;
+      border-radius: 0;
     }
 
     /* ---------- Navigation Buttons ---------- */
@@ -100,10 +116,11 @@
       cursor: pointer;
       font-size: 1.2em;
       transition: background 0.2s ease;
+      z-index: 2;
     }
 
     .carousel button:hover {
-      background: rgba(0, 66, 122, 0.8);
+      background: rgba(226, 234, 241, 0.8);
     }
 
     .carousel .prev {
@@ -137,7 +154,7 @@
 
     /* ---------- Footer ---------- */
     footer {
-      margin-top: 50px;
+      margin: 50px auto;
       text-align: center;
       font-size: 0.9em;
       color: #375a7f;
@@ -149,6 +166,7 @@
 
     @media (max-width: 700px) {
       .carousel img {
+        width: 100%;
         height: 250px;
       }
     }
@@ -156,60 +174,60 @@
 </head>
 <body>
   <header>
-    <img src="./assets/img/logo.png" alt="CCDS GSC" />
-    <h1>Event Photos</h1>
+    <div class="header-content">
+      <img src="./assets/img/logo.png" alt="CCDS GSC Logo" />
+      <h1>Event Photos</h1>
+    </div>
   </header>
 
-  <!-- ---------- Event 1: Deep Learning Bootcamp 2026 ---------- -->
-  <section class="event-section">
-    <p class="event-title">Deep Learning Bootcamp 2026 – Session 1</p>
-    <p class="event-date">October 24, 2025</p>
-
-    <div class="carousel">
-      <div class="carousel-track">
-        <img src="./assets/img/event_photos/dlbc26-s1/pic1.jpeg" alt="Deep Learning Bootcamp 2026 - 1" />
-        <img src="./assets/img/event_photos/dlbc26-s1/pic2.jpeg" alt="Deep Learning Bootcamp 2026 - 2" />
-        <img src="./assets/img/event_photos/dlbc26-s1/pic3.jpeg" alt="Deep Learning Bootcamp 2026 - 3" />
-        <img src="./assets/img/event_photos/dlbc26-s1/pic4.jpeg" alt="Deep Learning Bootcamp 2026 - 4" />
-        <img src="./assets/img/event_photos/dlbc26-s1/pic5.jpeg" alt="Deep Learning Bootcamp 2026 - 5" />
-        <img src="./assets/img/event_photos/dlbc26-s1/pic6.jpeg" alt="Deep Learning Bootcamp 2026 - 6" />
-        <img src="./assets/img/event_photos/dlbc26-s1/pic7.jpeg" alt="Deep Learning Bootcamp 2026 - 7" />
+  <main>
+    <!-- ---------- Event 1 ---------- -->
+    <section class="event-section">
+      <p class="event-title">Deep Learning Bootcamp 2026 – Session 1</p>
+      <p class="event-date">October 24, 2025</p>
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="./assets/img/event_photos/dlbc26-s1/pic1.jpeg" alt="Deep Learning Bootcamp 2026 - 1" />
+          <img src="./assets/img/event_photos/dlbc26-s1/pic2.jpeg" alt="Deep Learning Bootcamp 2026 - 2" />
+          <img src="./assets/img/event_photos/dlbc26-s1/pic3.jpeg" alt="Deep Learning Bootcamp 2026 - 3" />
+          <img src="./assets/img/event_photos/dlbc26-s1/pic4.jpeg" alt="Deep Learning Bootcamp 2026 - 4" />
+          <img src="./assets/img/event_photos/dlbc26-s1/pic5.jpeg" alt="Deep Learning Bootcamp 2026 - 5" />
+          <img src="./assets/img/event_photos/dlbc26-s1/pic6.jpeg" alt="Deep Learning Bootcamp 2026 - 6" />
+          <img src="./assets/img/event_photos/dlbc26-s1/pic7.jpeg" alt="Deep Learning Bootcamp 2026 - 7" />
+        </div>
+        <button class="prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="next"><i class="fas fa-chevron-right"></i></button>
+        <div class="carousel-dots"></div>
       </div>
-      <button class="prev"><i class="fas fa-chevron-left"></i></button>
-      <button class="next"><i class="fas fa-chevron-right"></i></button>
-      <div class="carousel-dots"></div>
-    </div>
-  </section>
+    </section>
 
-
-  <!-- ---------- Event 2: BBQ Night 2025 ---------- -->
-  <section class="event-section">
-    <p class="event-title">BBQ Night 2025</p>
-    <p class="event-date">September 5, 2025</p>
-
-    <div class="carousel">
-      <div class="carousel-track">
-        <img src="./assets/img/event_photos/bbq2025/pic1.jpeg" alt="BBQ Night 2025 - 1" />
-        <img src="./assets/img/event_photos/bbq2025/pic2.jpeg" alt="BBQ Night 2025 - 2" />
-        <img src="./assets/img/event_photos/bbq2025/pic3.jpeg" alt="BBQ Night 2025 - 3" />
-        <img src="./assets/img/event_photos/bbq2025/pic4.jpeg" alt="BBQ Night 2025 - 4" />
-        <img src="./assets/img/event_photos/bbq2025/pic5.jpeg" alt="BBQ Night 2025 - 5" />
-        <img src="./assets/img/event_photos/bbq2025/pic6.jpeg" alt="BBQ Night 2025 - 6" />
-        <img src="./assets/img/event_photos/bbq2025/pic7.jpeg" alt="BBQ Night 2025 - 7" />
+    <!-- ---------- Event 2 ---------- -->
+    <section class="event-section">
+      <p class="event-title">BBQ Night 2025</p>
+      <p class="event-date">September 5, 2025</p>
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="./assets/img/event_photos/bbq2025/pic1.jpeg" alt="BBQ Night 2025 - 1" />
+          <img src="./assets/img/event_photos/bbq2025/pic2.jpeg" alt="BBQ Night 2025 - 2" />
+          <img src="./assets/img/event_photos/bbq2025/pic3.jpeg" alt="BBQ Night 2025 - 3" />
+          <img src="./assets/img/event_photos/bbq2025/pic4.jpeg" alt="BBQ Night 2025 - 4" />
+          <img src="./assets/img/event_photos/bbq2025/pic5.jpeg" alt="BBQ Night 2025 - 5" />
+          <img src="./assets/img/event_photos/bbq2025/pic6.jpeg" alt="BBQ Night 2025 - 6" />
+          <img src="./assets/img/event_photos/bbq2025/pic7.jpeg" alt="BBQ Night 2025 - 7" />
+        </div>
+        <button class="prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="next"><i class="fas fa-chevron-right"></i></button>
+        <div class="carousel-dots"></div>
       </div>
-      <button class="prev"><i class="fas fa-chevron-left"></i></button>
-      <button class="next"><i class="fas fa-chevron-right"></i></button>
-      <div class="carousel-dots"></div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  
   <footer>
     Made with <span class="heart">❤️</span> by <strong>CCDS GSC 2025</strong>
   </footer>
 
   <script>
-    // ---------- Carousel Logic (auto + manual) ----------
+    // ---------- Carousel Logic (2 images per frame + manual + auto) ----------
     document.querySelectorAll('.carousel').forEach(carousel => {
       const track = carousel.querySelector('.carousel-track');
       const slides = Array.from(track.children);
@@ -218,19 +236,21 @@
       const dotsContainer = carousel.querySelector('.carousel-dots');
 
       let index = 0;
+      const visible = window.innerWidth < 700 ? 1 : 2; // 2 images per frame on desktop
+      const totalFrames = Math.ceil(slides.length / visible);
       let interval;
 
-      // Create navigation dots
-      slides.forEach((_, i) => {
+      // Create navigation dots only for frames
+      for (let i = 0; i < totalFrames; i++) {
         const dot = document.createElement('span');
         if (i === 0) dot.classList.add('active');
         dotsContainer.appendChild(dot);
-      });
+      }
       const dots = Array.from(dotsContainer.children);
 
       function showSlide(i) {
-        index = (i + slides.length) % slides.length;
-        track.style.transform = `translateX(-${index * 100}%)`;
+        index = (i + totalFrames) % totalFrames;
+        track.style.transform = `translateX(-${index * (100 / visible)}%)`;
         dots.forEach(dot => dot.classList.remove('active'));
         dots[index].classList.add('active');
       }
