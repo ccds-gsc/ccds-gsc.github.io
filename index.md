@@ -83,7 +83,7 @@ $ Hiking
 
   <hr />
 
-  <h3>Past Events (<a href="./events.html"><small><u>Photo Gallery</u></small></a>)</h3>
+  <h3>Past Events <a href="./events.html"><small><u>(Photo Gallery)</u></small></a></h3>
   <ul>
     <li>[24Oct'25] Deep Learning Bootcamp - Session 1</li>
     <li>[22Sep'25] Research Seminar</li>
