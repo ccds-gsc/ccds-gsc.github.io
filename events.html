@@ -9,19 +9,16 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
   />
   <style>
-    /* ---------- Base Page Style ---------- */
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.6;
       margin: 0;
       color: #23314d;
       background-color: #ffffff;
     }
 
-    /* ---------- Header Section ---------- */
     header {
       width: 100%;
-      background: #ebf0ff;
+      background: #ffffff;
       border-bottom: 3px solid #cacee8;
       padding: 30px 0;
       box-shadow: 0 2px 6px rgba(0, 66, 122, 0.1);
@@ -37,8 +34,8 @@
     }
 
     .header-content img {
-      width: 100px;
-      height: 100px;
+      width: 120px;
+      height: 120px;
     }
 
     .header-content h1 {
@@ -47,14 +44,12 @@
       margin: 0;
     }
 
-    /* ---------- Event Container ---------- */
     main {
       margin: 40px auto;
       max-width: 1000px;
       padding: 0 15px;
     }
 
-    /* ---------- Event Card ---------- */
     .event-section {
       margin-bottom: 50px;
       background: #f7fafc;
@@ -104,13 +99,11 @@
     }
 
     .carousel img {
-      width: 50%; /* two images per view */
+      width: 50%;
       height: 400px;
       object-fit: cover;
-      border-radius: 0;
     }
 
-    /* ---------- Navigation Buttons ---------- */
     .carousel button {
       position: absolute;
       top: 50%;
@@ -138,7 +131,6 @@
       right: 10px;
     }
 
-    /* ---------- Dots ---------- */
     .carousel-dots {
       text-align: center;
       margin-top: 10px;
@@ -159,7 +151,6 @@
       background: #00427a;
     }
 
-    /* ---------- Footer ---------- */
     footer {
       margin: 50px auto;
       text-align: center;
@@ -198,13 +189,13 @@
 
       <div class="carousel">
         <div class="carousel-track">
-          <img src="./assets/img/event_photos/dlbc26-s1/pic1.jpeg" alt="Deep Learning Bootcamp 2026 - 1" />
-          <img src="./assets/img/event_photos/dlbc26-s1/pic2.jpeg" alt="Deep Learning Bootcamp 2026 - 2" />
-          <img src="./assets/img/event_photos/dlbc26-s1/pic3.jpeg" alt="Deep Learning Bootcamp 2026 - 3" />
-          <img src="./assets/img/event_photos/dlbc26-s1/pic4.jpeg" alt="Deep Learning Bootcamp 2026 - 4" />
-          <img src="./assets/img/event_photos/dlbc26-s1/pic5.jpeg" alt="Deep Learning Bootcamp 2026 - 5" />
-          <img src="./assets/img/event_photos/dlbc26-s1/pic6.jpeg" alt="Deep Learning Bootcamp 2026 - 6" />
-          <img src="./assets/img/event_photos/dlbc26-s1/pic7.jpeg" alt="Deep Learning Bootcamp 2026 - 7" />
+          <img src="./assets/img/event_photos/dlbc26-s1/pic1.jpeg" />
+          <img src="./assets/img/event_photos/dlbc26-s1/pic2.jpeg" />
+          <img src="./assets/img/event_photos/dlbc26-s1/pic3.jpeg" />
+          <img src="./assets/img/event_photos/dlbc26-s1/pic4.jpeg" />
+          <img src="./assets/img/event_photos/dlbc26-s1/pic5.jpeg" />
+          <img src="./assets/img/event_photos/dlbc26-s1/pic6.jpeg" />
+          <img src="./assets/img/event_photos/dlbc26-s1/pic7.jpeg" />
         </div>
         <button class="prev"><i class="fas fa-chevron-left"></i></button>
         <button class="next"><i class="fas fa-chevron-right"></i></button>
@@ -222,13 +213,13 @@
 
       <div class="carousel">
         <div class="carousel-track">
-          <img src="./assets/img/event_photos/bbq2025/pic1.jpeg" alt="BBQ Night 2025 - 1" />
-          <img src="./assets/img/event_photos/bbq2025/pic2.jpeg" alt="BBQ Night 2025 - 2" />
-          <img src="./assets/img/event_photos/bbq2025/pic3.jpeg" alt="BBQ Night 2025 - 3" />
-          <img src="./assets/img/event_photos/bbq2025/pic4.jpeg" alt="BBQ Night 2025 - 4" />
-          <img src="./assets/img/event_photos/bbq2025/pic5.jpeg" alt="BBQ Night 2025 - 5" />
-          <img src="./assets/img/event_photos/bbq2025/pic6.jpeg" alt="BBQ Night 2025 - 6" />
-          <img src="./assets/img/event_photos/bbq2025/pic7.jpeg" alt="BBQ Night 2025 - 7" />
+          <img src="./assets/img/event_photos/bbq2025/pic1.jpeg" />
+          <img src="./assets/img/event_photos/bbq2025/pic2.jpeg" />
+          <img src="./assets/img/event_photos/bbq2025/pic3.jpeg" />
+          <img src="./assets/img/event_photos/bbq2025/pic4.jpeg" />
+          <img src="./assets/img/event_photos/bbq2025/pic5.jpeg" />
+          <img src="./assets/img/event_photos/bbq2025/pic6.jpeg" />
+          <img src="./assets/img/event_photos/bbq2025/pic7.jpeg" />
         </div>
         <button class="prev"><i class="fas fa-chevron-left"></i></button>
         <button class="next"><i class="fas fa-chevron-right"></i></button>
@@ -242,81 +233,80 @@
   </footer>
 
   <script>
-  // ---------- Fixed Carousel Logic ----------
-  document.querySelectorAll('.carousel').forEach(carousel => {
-    const track = carousel.querySelector('.carousel-track');
-    const slides = Array.from(track.children);
-    const nextButton = carousel.querySelector('.next');
-    const prevButton = carousel.querySelector('.prev');
-    const dotsContainer = carousel.querySelector('.carousel-dots');
+    // Fixed Carousel Logic - Shows all images
+    document.querySelectorAll('.carousel').forEach(carousel => {
+      const track = carousel.querySelector('.carousel-track');
+      const slides = Array.from(track.children);
+      const nextButton = carousel.querySelector('.next');
+      const prevButton = carousel.querySelector('.prev');
+      const dotsContainer = carousel.querySelector('.carousel-dots');
 
-    let index = 0;
-    let interval;
+      let index = 0;
+      let interval;
 
-    function getVisibleCount() {
-      return window.innerWidth < 700 ? 1 : 2;
-    }
-
-    function getTotalFrames() {
-      return Math.ceil(slides.length / getVisibleCount());
-    }
-
-    function updateDots() {
-      dotsContainer.innerHTML = "";
-      const totalFrames = getTotalFrames();
-      for (let i = 0; i < totalFrames; i++) {
-        const dot = document.createElement("span");
-        if (i === index) dot.classList.add("active");
-        dotsContainer.appendChild(dot);
-        dot.addEventListener("click", () => showSlide(i));
+      function getVisible() {
+        return window.innerWidth < 700 ? 1 : 2;
       }
-    }
 
-    function showSlide(i) {
-      const visible = getVisibleCount();
-      const totalFrames = getTotalFrames();
-      index = (i + totalFrames) % totalFrames;
+      function showSlide(i) {
+        const visible = getVisible();
+        const maxIndex = slides.length - visible;
+        index = (i + slides.length) % (slides.length);
 
-      const slideWidth = 100 / visible;
-      track.style.transform = `translateX(-${index * slideWidth}%)`;
+        // Clamp index so last frame shows remaining images
+        if (index > maxIndex) index = maxIndex;
 
-      Array.from(dotsContainer.children).forEach((dot, j) => {
-        dot.classList.toggle("active", j === index);
+        const shift = (100 / visible) * index;
+        track.style.transform = `translateX(-${shift}%)`;
+
+        // update dots
+        const dotCount = slides.length - visible + 1;
+        dotsContainer.querySelectorAll('span').forEach((d, j) => {
+          d.classList.toggle('active', j === index);
+        });
+      }
+
+      function updateDots() {
+        dotsContainer.innerHTML = "";
+        const dotCount = slides.length - getVisible() + 1;
+        for (let i = 0; i < dotCount; i++) {
+          const dot = document.createElement('span');
+          if (i === 0) dot.classList.add('active');
+          dot.addEventListener('click', () => showSlide(i));
+          dotsContainer.appendChild(dot);
+        }
+      }
+
+      function nextSlide() {
+        showSlide(index + 1);
+      }
+
+      function prevSlide() {
+        showSlide(index - 1);
+      }
+
+      nextButton.addEventListener('click', nextSlide);
+      prevButton.addEventListener('click', prevSlide);
+
+      function startAuto() {
+        interval = setInterval(nextSlide, 3000);
+      }
+      function stopAuto() {
+        clearInterval(interval);
+      }
+
+      carousel.addEventListener('mouseenter', stopAuto);
+      carousel.addEventListener('mouseleave', startAuto);
+
+      window.addEventListener('resize', () => {
+        updateDots();
+        showSlide(index);
       });
-    }
 
-    function nextSlide() {
-      showSlide(index + 1);
-    }
-
-    function prevSlide() {
-      showSlide(index - 1);
-    }
-
-    nextButton.addEventListener("click", nextSlide);
-    prevButton.addEventListener("click", prevSlide);
-
-    function startAuto() {
-      interval = setInterval(nextSlide, 3000);
-    }
-    function stopAuto() {
-      clearInterval(interval);
-    }
-
-    carousel.addEventListener("mouseenter", stopAuto);
-    carousel.addEventListener("mouseleave", startAuto);
-
-    // Recompute layout on resize
-    window.addEventListener("resize", () => {
       updateDots();
-      showSlide(index);
+      showSlide(0);
+      startAuto();
     });
-
-    updateDots();
-    showSlide(0);
-    startAuto();
-  });
-</script>
-
+  </script>
 </body>
 </html>
