@@ -27,7 +27,7 @@ layout: default
       color: #0366d6;
       text-decoration: none;
     ">
-      CCDS GSC
+      Hi!
     </a>
 
     <!-- Nav Links -->
