@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Event Photos | CCDS GSC</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <style>
+    /* ---------- Base Page Style ---------- */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      margin: 40px auto;
+      max-width: 1000px;
+      color: #23314d;
+      background-color: #ffffff;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+      gap: 15px;
+    }
+
+    header img {
+      width: 60px;
+      height: 60px;
+    }
+
+    header h1 {
+      color: #00427a;
+      font-size: 2em;
+      margin: 0;
+    }
+
+    /* ---------- Event Card ---------- */
+    .event-section {
+      margin-bottom: 50px;
+      background: #f2f7fb;
+      border-left: 6px solid #00427a;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0, 66, 122, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .event-section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0, 66, 122, 0.25);
+    }
+
+    .event-title {
+      font-size: 1.4em;
+      color: #00427a;
+      margin: 0;
+      font-weight: bold;
+    }
+
+    .event-date {
+      font-size: 0.95em;
+      color: #375a7f;
+      margin-bottom: 15px;
+    }
+
+    /* ---------- Carousel ---------- */
+    .carousel {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .carousel-track {
+      display: flex;
+      transition: transform 0.8s ease;
+    }
+
+    .carousel img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    /* ---------- Navigation Buttons ---------- */
+    .carousel button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0, 66, 122, 0.5);
+      color: #fff;
+      border: none;
+      padding: 10px 14px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1.2em;
+      transition: background 0.2s ease;
+    }
+
+    .carousel button:hover {
+      background: rgba(0, 66, 122, 0.8);
+    }
+
+    .carousel .prev {
+      left: 10px;
+    }
+
+    .carousel .next {
+      right: 10px;
+    }
+
+    /* ---------- Dots ---------- */
+    .carousel-dots {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .carousel-dots span {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background: #cfdbe8;
+      border-radius: 50%;
+      margin: 0 4px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .carousel-dots .active {
+      background: #00427a;
+    }
+
+    /* ---------- Footer ---------- */
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #375a7f;
+    }
+
+    .heart {
+      color: #b22222;
+    }
+
+    @media (max-width: 700px) {
+      .carousel img {
+        height: 250px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./assets/img/logo.png" alt="CCDS GSC" />
+    <h1>Event Photos</h1>
+  </header>
+
+  <!-- ---------- Event 1: Deep Learning Bootcamp 2026 ---------- -->
+  <section class="event-section">
+    <p class="event-title">Deep Learning Bootcamp 2026 – Session 1</p>
+    <p class="event-date">October 24, 2025</p>
+
+    <div class="carousel">
+      <div class="carousel-track">
+        <img src="./assets/img/event_photos/dlbc26-s1/pic1.jpeg" alt="Deep Learning Bootcamp 2026 - 1" />
+        <img src="./assets/img/event_photos/dlbc26-s1/pic2.jpeg" alt="Deep Learning Bootcamp 2026 - 2" />
+        <img src="./assets/img/event_photos/dlbc26-s1/pic3.jpeg" alt="Deep Learning Bootcamp 2026 - 3" />
+        <img src="./assets/img/event_photos/dlbc26-s1/pic4.jpeg" alt="Deep Learning Bootcamp 2026 - 4" />
+        <img src="./assets/img/event_photos/dlbc26-s1/pic5.jpeg" alt="Deep Learning Bootcamp 2026 - 5" />
+        <img src="./assets/img/event_photos/dlbc26-s1/pic6.jpeg" alt="Deep Learning Bootcamp 2026 - 6" />
+        <img src="./assets/img/event_photos/dlbc26-s1/pic7.jpeg" alt="Deep Learning Bootcamp 2026 - 7" />
+      </div>
+      <button class="prev"><i class="fas fa-chevron-left"></i></button>
+      <button class="next"><i class="fas fa-chevron-right"></i></button>
+      <div class="carousel-dots"></div>
+    </div>
+  </section>
+
+
+  <!-- ---------- Event 2: BBQ Night 2025 ---------- -->
+  <section class="event-section">
+    <p class="event-title">BBQ Night 2025</p>
+    <p class="event-date">September 5, 2025</p>
+
+    <div class="carousel">
+      <div class="carousel-track">
+        <img src="./assets/img/event_photos/bbq2025/pic1.jpeg" alt="BBQ Night 2025 - 1" />
+        <img src="./assets/img/event_photos/bbq2025/pic2.jpeg" alt="BBQ Night 2025 - 2" />
+        <img src="./assets/img/event_photos/bbq2025/pic3.jpeg" alt="BBQ Night 2025 - 3" />
+        <img src="./assets/img/event_photos/bbq2025/pic4.jpeg" alt="BBQ Night 2025 - 4" />
+        <img src="./assets/img/event_photos/bbq2025/pic5.jpeg" alt="BBQ Night 2025 - 5" />
+        <img src="./assets/img/event_photos/bbq2025/pic6.jpeg" alt="BBQ Night 2025 - 6" />
+        <img src="./assets/img/event_photos/bbq2025/pic7.jpeg" alt="BBQ Night 2025 - 7" />
+      </div>
+      <button class="prev"><i class="fas fa-chevron-left"></i></button>
+      <button class="next"><i class="fas fa-chevron-right"></i></button>
+      <div class="carousel-dots"></div>
+    </div>
+  </section>
+
+  
+  <footer>
+    Made with <span class="heart">❤️</span> by <strong>CCDS GSC 2025</strong>
+  </footer>
+
+  <script>
+    // ---------- Carousel Logic (auto + manual) ----------
+    document.querySelectorAll('.carousel').forEach(carousel => {
+      const track = carousel.querySelector('.carousel-track');
+      const slides = Array.from(track.children);
+      const nextButton = carousel.querySelector('.next');
+      const prevButton = carousel.querySelector('.prev');
+      const dotsContainer = carousel.querySelector('.carousel-dots');
+
+      let index = 0;
+      let interval;
+
+      // Create navigation dots
+      slides.forEach((_, i) => {
+        const dot = document.createElement('span');
+        if (i === 0) dot.classList.add('active');
+        dotsContainer.appendChild(dot);
+      });
+      const dots = Array.from(dotsContainer.children);
+
+      function showSlide(i) {
+        index = (i + slides.length) % slides.length;
+        track.style.transform = `translateX(-${index * 100}%)`;
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[index].classList.add('active');
+      }
+
+      function nextSlide() { showSlide(index + 1); }
+      function prevSlide() { showSlide(index - 1); }
+
+      nextButton.addEventListener('click', nextSlide);
+      prevButton.addEventListener('click', prevSlide);
+      dots.forEach((dot, i) => dot.addEventListener('click', () => showSlide(i)));
+
+      function startAuto() { interval = setInterval(nextSlide, 3000); }
+      function stopAuto() { clearInterval(interval); }
+
+      carousel.addEventListener('mouseenter', stopAuto);
+      carousel.addEventListener('mouseleave', startAuto);
+
+      startAuto();
+    });
+  </script>
+</body>
+</html>
