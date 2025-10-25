@@ -4,3 +4,5 @@ description: CCDS GSC Official Website
 show_downloads: true
 google_analytics: G-CJHJXG4C3B
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-sitemap
