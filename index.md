@@ -69,21 +69,61 @@ layout: default
 <!-- 🟨 Main Content -->
 <div style="max-width: 900px; margin: 30px auto; padding: 0 15px;">
   <p>
-    We are the Graduate Students Committee of the College of Computing and Data Science (CCDS) at NTU.
+    We are the Graduate Students' Committee (GSC) of the College of Computing and Data Science (CCDS) at NTU Singapore.
     Our committee organizes various academic and social events to help graduate students connect, collaborate, 
     and integrate into the NTU community.
   </p>
 
-  <h3><code>Upcoming Events</code></h3>
+<!-- 🟨 Updates -->
+  <h3><code>Updates</code></h3>
+
+  <style>
+    @keyframes flash {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+  
+    .news {
+      color: maroon;
+      font-weight: bold;
+      animation: flash 1s infinite;
+    }
+  
+    .coming {
+      color: darkorange;
+      font-weight: bold;
+    }
+  
+    pre code {
+      background: #f9f9f9;
+      display: block;
+      padding: 10px;
+      border-radius: 6px;
+      font-family: monospace;
+      line-height: 1.5em;
+    }
+  
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+  
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  
   <pre><code>
-$ Recruitment is coming soon
-$ Deep Learning Bootcamp 2026 (our flagship event)
-$ VR Game
-$ Hiking
+  $ <span class="news">[News]</span> We’ll be recruiting soon!
+  $ <a href="https://event.ntu.edu.sg/3rd-deeplearning-bootcamp-ss2">[Register]</a> Deep Learning Bootcamp 2026 - Session 2 (10th Nov'25)
+  $ <span class="coming">[Coming Soon]</span> VR Game
+  $ <span class="coming">[Coming Soon]</span> Hiking
   </code></pre>
+
 
   <hr />
 
+<!-- 🟨 Past Events with date -->
  <h3>
   Past Events 
   <a href="./events.html" style="font-size: 85%; text-decoration: none;">
@@ -96,6 +136,22 @@ $ Hiking
     <li>[05Sep'25] BBQ Night</li>
   </ul>
 
-  <h4>Meet our dedicated <span style="font-size: 1.1em;">🔥</span> <a href="./team.html"><u>team</u></a></h4>
+<!-- 🟥  Meet the team Footer -->
+  <footer style="
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px 0;
+    font-size: 1em;
+    border-top: 1px solid #e1e4e8;
+    color: #555;
+  ">
+    <h4 style="margin: 0;">
+      Meet our dedicated 
+      <span style="font-size: 1.1em;">🔥</span>
+      <a href="./team.html" style="text-decoration: underline; color: inherit;">
+        team
+      </a>
+    </h4>
+  </footer>
 
 </div>
