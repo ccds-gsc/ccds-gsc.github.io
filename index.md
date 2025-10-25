@@ -97,7 +97,7 @@ layout: default
     pre code {
       background: #f9f9f9;
       display: block;
-      padding: 10px;
+      padding: 0px;
       border-radius: 6px;
       font-family: monospace;
       line-height: 1.5em;
