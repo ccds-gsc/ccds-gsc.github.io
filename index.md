@@ -69,8 +69,8 @@ layout: default
 <!-- 🟨 Main Content -->
 <div style="max-width: 900px; margin: 30px auto; padding: 0 15px;">
   <p>
-    We are the Graduate Students' Committee (GSC) of the College of Computing and Data Science (CCDS) at NTU Singapore.
-    Our committee organizes various academic and social events to help graduate students connect, collaborate, 
+    We are the Graduate Students Club (GSC) of the College of Computing and Data Science (CCDS) at NTU Singapore.
+    Our committee organizes various academic and social events to help graduate (Master’s and PhD) students connect, collaborate, 
     and integrate into the NTU community.
   </p>
 
