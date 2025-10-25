@@ -93,7 +93,14 @@ layout: default
       color: darkorange;
       font-weight: bold;
     }
-  
+
+    pre {
+      margin: 0;
+      padding: 0;     /* ← removes default padding */
+      background: none;
+      border: none;
+    }
+    
     pre code {
       background: #f9f9f9;
       display: block;
@@ -115,7 +122,7 @@ layout: default
   
   <pre><code>
   $ <span class="news">[News]</span> We’ll be recruiting soon!
-  $ <a href="https://event.ntu.edu.sg/3rd-deeplearning-bootcamp-ss2">[Register]</a> Deep Learning Bootcamp 2026 - Session 2 (10th Nov'25)
+  $ <a href="https://event.ntu.edu.sg/3rd-deeplearning-bootcamp-ss2">[Register 10Nov'25]</a> Deep Learning Bootcamp - Session 2
   $ <span class="coming">[Coming Soon]</span> VR Game
   $ <span class="coming">[Coming Soon]</span> Hiking
   </code></pre>
