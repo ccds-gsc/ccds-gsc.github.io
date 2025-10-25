@@ -97,8 +97,6 @@ layout: default
     pre {
       margin: 0;
       padding: 0;     /* ← removes default padding */
-      background: none;
-      border: none;
     }
     
     pre code {
@@ -122,7 +120,7 @@ layout: default
   
   <pre><code>
   $ <span class="news">[News]</span> We’ll be recruiting soon!
-  $ <a href="https://event.ntu.edu.sg/3rd-deeplearning-bootcamp-ss2">[Register 10Nov'25]</a> Deep Learning Bootcamp - Session 2
+  $ <a href="https://event.ntu.edu.sg/3rd-deeplearning-bootcamp-ss2" target="_blank" rel="noopener noreferrer">[Register]</a> <a href="https://ntu-dl-bootcamp.github.io/deep-learning-2026/" target="_blank" rel="noopener noreferrer">DL Bootcamp 2026</a> - Session 2
   $ <span class="coming">[Coming Soon]</span> VR Game
   $ <span class="coming">[Coming Soon]</span> Hiking
   </code></pre>
