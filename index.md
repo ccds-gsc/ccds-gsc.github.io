@@ -119,7 +119,7 @@ layout: default
   </style>
   
   <pre><code>
-  $ <span class="news">[News]</span> We’ll be recruiting soon!
+  $ <span class="news">[News]</span> Recruitment Over!
   $ <a href="https://event.ntu.edu.sg/3rd-deeplearning-bootcamp-ss2" target="_blank" rel="noopener noreferrer">[Register]</a> <a href="https://ntu-dl-bootcamp.github.io/deep-learning-2026/" target="_blank" rel="noopener noreferrer">DL Bootcamp 2026</a> - Session 2
   $ <span class="coming">[Coming Soon]</span> VR Game
   $ <span class="coming">[Coming Soon]</span> Hiking
