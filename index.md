@@ -28,7 +28,7 @@ layout: default
       text-decoration: none;
       font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
     ">
-      Hello!
+      Welcome!
     </a>
 
     <!-- Nav Buttons -->
@@ -45,7 +45,7 @@ layout: default
       " 
       onmouseover="this.style.backgroundColor='#0366d6';this.style.color='#ffffff';this.style.borderColor='#0366d6';"
       onmouseout="this.style.backgroundColor='#ffffff';this.style.color='#24292e';this.style.borderColor='#d1d5da';">
-        Events
+        Photo Gallery
       </a>
 
       <a href="./team.html" style="
@@ -118,8 +118,8 @@ layout: default
   </style>
   
   <pre><code>
-  $ <span class="news">[Closed]</span> <a href="https://event.ntu.edu.sg/3rd-deeplearning-bootcamp-ss2" target="_blank" rel="noopener noreferrer">Deep Learning Bootcamp 2026 – Session 2</a>
-  $ <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=SJPOFSq-K0aPwOF2WpsgSr4CcWpj0HJGlxdrSwoZ1gxUMEhVRVdBSENWVDRJWkZJMUxLMExXWUxBRC4u" target="_blank" rel="noopener noreferrer">[Register]</a> Impressions in NTU
+  $ <span class="news">[Closed]</span> Deep Learning Bootcamp 2026 – Session 2
+  $ <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=SJPOFSq-K0aPwOF2WpsgSr4CcWpj0HJGlxdrSwoZ1gxUMEhVRVdBSENWVDRJWkZJMUxLMExXWUxBRC4u" target="_blank" rel="noopener noreferrer"><strong>[Register]</strong></a> Impressions in NTU
   $ <span class="coming">[Coming Soon]</span> VR Game
   $ <span class="coming">[Coming Soon]</span> Hiking
   </code></pre>
@@ -135,7 +135,7 @@ layout: default
   </a>
 </h3>
   <ul>
-    <li>[Nov 15, 2015] Game Therapy Night 2025</li>
+    <li>[Nov 15, 2025] Game Therapy Night 2025</li>
     <li>[Oct 24, 2025] Deep Learning Bootcamp 2026 – Session 1</li>
     <li>[Sep 25, 2025] Research Seminar</li>
     <li>[Sep 5, 2025] BBQ Night 2025</li>
