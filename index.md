@@ -69,13 +69,12 @@ layout: default
 <!-- 🟨 Main Content -->
 <div style="max-width: 900px; margin: 30px auto; padding: 0 15px;">
   <p>
-    We are the Graduate Students Club (GSC) of the College of Computing and Data Science (CCDS) at NTU Singapore.
-    Our committee organizes various academic and social events to help graduate (Master’s and PhD) students connect, collaborate, 
-    and integrate into the NTU community.
+    We are the Graduate Students' Club (GSC) of the College of Computing and Data Science (CCDS) at Nanyang Technological University (NTU), Singapore.
+    Our committee organizes academic and social events to help Master's and PhD students connect, collaborate, and integrate into the NTU community.
   </p>
 
 <!-- 🟨 Updates -->
-  <h3><code>Updates</code></h3>
+  <h3>Updates</h3>
 
   <style>
     @keyframes flash {
@@ -119,8 +118,9 @@ layout: default
   </style>
   
   <pre><code>
-  $ <span class="news">[News]</span> Recruitment Over!
-  $ <a href="https://event.ntu.edu.sg/3rd-deeplearning-bootcamp-ss2" target="_blank" rel="noopener noreferrer">[Register]</a> <a href="https://ntu-dl-bootcamp.github.io/deep-learning-2026/" target="_blank" rel="noopener noreferrer">DL Bootcamp 2026</a> - Session 2
+  $ <span class="news">[News]</span> Recruitment drive is over. Stay tuned for the next one!
+  $ <a href="https://event.ntu.edu.sg/3rd-deeplearning-bootcamp-ss2" target="_blank" rel="noopener noreferrer">[Registration Closed]</a> <a href="https://ntu-dl-bootcamp.github.io/deep-learning-2026/" target="_blank" rel="noopener noreferrer">Deep Learning Bootcamp 2026 – Session 2: Deep Learning for Regression and Classification</a>
+  $ <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=SJPOFSq-K0aPwOF2WpsgSr4CcWpj0HJGlxdrSwoZ1gxUMEhVRVdBSENWVDRJWkZJMUxLMExXWUxBRC4u" target="_blank" rel="noopener noreferrer">[Register]</a> Impressions in NTU
   $ <span class="coming">[Coming Soon]</span> VR Game
   $ <span class="coming">[Coming Soon]</span> Hiking
   </code></pre>
@@ -136,9 +136,9 @@ layout: default
   </a>
 </h3>
   <ul>
-    <li>[24Oct'25] Deep Learning Bootcamp - Session 1</li>
-    <li>[22Sep'25] Research Seminar</li>
-    <li>[05Sep'25] BBQ Night</li>
+    <li>[Oct 24, 2025] Deep Learning Bootcamp 2026 – Session 1: Deep Learning Essentials</li>
+    <li>[Sep 25, 2025] Research Seminar</li>
+    <li>[Sep 5, 2025] BBQ Night 2025</li>
   </ul>
 
 <!-- 🟥  Meet the team Footer -->
