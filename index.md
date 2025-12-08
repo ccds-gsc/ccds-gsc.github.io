@@ -28,7 +28,7 @@ layout: default
       text-decoration: none;
       font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
     ">
-      Welcome!
+      Hello!
     </a>
 
     <!-- Nav Buttons -->
@@ -119,7 +119,7 @@ layout: default
   
   <pre><code>
   $ <span class="news">[Closed]</span> Deep Learning Bootcamp 2026 – Session 2
-  $ <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=SJPOFSq-K0aPwOF2WpsgSr4CcWpj0HJGlxdrSwoZ1gxUMEhVRVdBSENWVDRJWkZJMUxLMExXWUxBRC4u" target="_blank" rel="noopener noreferrer"><strong>[Register]</strong></a> Impressions in NTU
+  $ <span class="news">[Closed]</span> Impressions in NTU
   $ <span class="coming">[Coming Soon]</span> VR Game
   $ <span class="coming">[Coming Soon]</span> Hiking
   </code></pre>
@@ -137,7 +137,7 @@ layout: default
   <ul>
     <li>[Nov 15, 2025] Game Therapy Night 2025</li>
     <li>[Oct 24, 2025] Deep Learning Bootcamp 2026 – Session 1</li>
-    <li>[Sep 25, 2025] Research Seminar</li>
+    <li>[Sep 23, 2025] Research Talk by Asst Prof Debanga R. Neog </li>
     <li>[Sep 5, 2025] BBQ Night 2025</li>
   </ul>
 
