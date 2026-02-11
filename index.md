@@ -118,6 +118,7 @@ layout: default
   </style>
   
   <pre><code>
+  $ <a href="https://event.ntu.edu.sg/holi-event-2026" class="news">[Register Here]</a> Holi Event 2026
   $ <a href="https://forms.office.com/r/dj7DEFbujs" class="news">[Register Here]</a> Freshers' Welcome BBQ
   $ <span class="closed">[Closed]</span> Deep Learning Bootcamp 2026 – Session 3
   $ <span class="closed">[Closed]</span> MAExMSExCCDS Lunar New Year 2026 Party
