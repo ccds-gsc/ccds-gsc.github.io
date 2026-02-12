@@ -135,9 +135,6 @@ layout: default
   </a>
 </h3>
   <ul>
-    <li>[Nov 15, 2025] Game Therapy Night 2025</li>
-    <li>[Oct 24, 2025] Deep Learning Bootcamp 2026 – Session 1</li>
-    <li>[Sep 5, 2025] Freshers' Welcome BBQ Party</li>
   </ul>
 
 <!-- 🟥  Meet the team Footer -->
