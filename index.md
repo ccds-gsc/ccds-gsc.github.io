@@ -119,7 +119,7 @@ layout: default
   
   <pre><code>
   $ <a href="https://event.ntu.edu.sg/holi-event-2026" class="news">[Register Here]</a> Holi Event 2026
-  $ <a href="https://forms.office.com/r/dj7DEFbujs" class="news">[Register Here]</a> Freshers' Welcome BBQ
+  $ <a href="https://forms.office.com/r/dj7DEFbujs" class="news">[Register Here]</a> Freshers' Welcome BBQ Party
   $ <span class="closed">[Closed]</span> Deep Learning Bootcamp 2026 – Session 3
   $ <span class="closed">[Closed]</span> MAExMSExCCDS Lunar New Year 2026 Party
   </code></pre>
@@ -137,8 +137,7 @@ layout: default
   <ul>
     <li>[Nov 15, 2025] Game Therapy Night 2025</li>
     <li>[Oct 24, 2025] Deep Learning Bootcamp 2026 – Session 1</li>
-    <li>[Sep 23, 2025] Research Talk by Asst Prof Debanga R. Neog</li>
-    <li>[Sep 5, 2025] BBQ Night 2025</li>
+    <li>[Sep 5, 2025] Freshers' Welcome BBQ Party</li>
   </ul>
 
 <!-- 🟥  Meet the team Footer -->
